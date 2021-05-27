@@ -6,9 +6,3 @@ export const StyledTodosList = styled.div`
     justify-content: center;
     align-items: center;
 `;
-
-export const TodosWrapper = styled.div`
-  
-`;
-
-

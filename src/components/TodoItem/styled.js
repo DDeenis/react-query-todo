@@ -15,7 +15,3 @@ export const TodoInfo = styled.div`
     text-decoration-color: ${({ checked }) => checked ? 'auto' : 'transparent'};
     transition: all .2s ease;
 `;
-
-export const TodoControls = styled.div`
-  
-`;
