@@ -9,7 +9,7 @@ const TodoItem = ({ todo }) => {
     return (
         <Grid container item xs={12} spacing={3}>
             <StyledTodoItem>
-                <Card raised={isRaised} onMouseEnter={() => setIsRaised(true)} onMouseLeave={() => setIsRaised(false)}>
+                <Card variant='outlined' raised={isRaised} onMouseEnter={() => setIsRaised(true)} onMouseLeave={() => setIsRaised(false)}>
                     <CardActionArea>
                         <CardContent>
                             <TodoInfo checked={isChecked}>
